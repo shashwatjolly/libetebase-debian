@@ -1,0 +1,14 @@
+Source: libetebase
+Section: x11
+Priority: optional
+Maintainer: Shashwat Jolly <shashwat.jolly@gmail.com>
+Uploaders: Shashwat Jolly <shashwat.jolly@gmail.com>
+Build-Depends: cargo,
+		git
+Standards-Version: 3.9.6
+
+Package: libetebase
+Architecture: any
+Depends: openssl,
+Description: Etebase C library
+
